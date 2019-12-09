@@ -14,9 +14,9 @@ public class nojamcityAlgorithm {
 	}
 	void selectCity(){
 		System.out.println("친구가 아무 연락없이 갑자기 우리동네에 왔습니다."
-				+ "내가 사는 도시는 노잼입니다."
-				+ "어떻게 하는게 좋을까요? 친구는 벌써 오고 있댑니다..."
-				+ "내가 사는 도시는 :");
+				+ "\n내가 사는 도시는 노잼입니다."
+				+ "\n어떻게 하는게 좋을까요? 친구는 벌써 오고 있댑니다..."
+				+ "\n내가 사는 도시는 :");
 		System.out.println("1. 대전 \t 2.울산");
 		int ans = Integer.parseInt(s.nextLine());
 		if(ans == 1){
@@ -99,7 +99,7 @@ public class nojamcityAlgorithm {
 		}
 	}
 	void con1(){
-		System.out.println("그 다음에 이제 뭐하지... 성심담 들리고 집에 보낸다.");
+		System.out.println("그 다음에 이제 뭐하지... 성심당 들리고 집에 보낸다.");
 	}
 	
 	void con2(){
