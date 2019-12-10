@@ -1,4 +1,4 @@
-package e_oop;
+package sem_e_oop;
 
 import java.util.Scanner;
 

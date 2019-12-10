@@ -1,4 +1,4 @@
-package e_oop; //현재 클래스의 위치를 알려준다.
+package sem_e_oop; //현재 클래스의 위치를 알려준다.
 
 import java.util.*; //다른 패키지에 있는 클래스의 위치를 알려준다.
 
