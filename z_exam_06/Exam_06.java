@@ -362,28 +362,42 @@ public class Exam_06 {
 //		}
 //		return original;
 //	}
-	
+
 	
 //	6-22
-//	private static String isNumber(String str) {
-//		
-//		return null;
+//	static boolean isNumber (String str) {
+//		if (str == null || str.equals("")){
+//			return false;
+//		}
+//		for (int i = 0; i < str.length(); i++){
+//			char ch = str.charAt(i);
+//			if ('0' > ch || ch > '9'){
+//				return false;
+//			}		
+//		}
+//		return true;
 //	}
+		
+		
 	
 	//	6-23
-	private static String max(int[] data) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+//	static int max (int []arr) {
+//		if (arr == null || arr.length == 0){
+//			return -99999;
+//		}
+//		int max = arr[0];
+//		for(int i = 1 ;)
+//		
+//	}
 	
 //	6-24
-	private static int abs(int value) {
-		if (value < 0){
-			value = -value;
-		}
-		else{
-			value = value;
-		}
-	return value;
+//	private static int abs(int value) {
+//		if (value < 0){
+//			value = -value;
+//		}
+//		else{
+//			value = value;
+//		}
+//	return value;
 	}
-}
+
