@@ -1,6 +1,6 @@
-package sem_e_oop;
+package f_oop2;
 
-public class SampleParent {
+public class SampleParent /*extends Object*/{
 
 	String var;
 	{
@@ -8,6 +8,7 @@ public class SampleParent {
 	}
 	
 	SampleParent(){
+		
 		var = "생성자도 물려주지 않는다.. 이것도 내꺼다.";
 	}
 	
