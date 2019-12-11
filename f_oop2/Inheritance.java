@@ -11,7 +11,7 @@ public class Inheritance {
 		 * - 부모 클래스의 생성자와 초기화블럭을 제외한 모든 멤버를 물려받는다.
 		 * - 하나의 클래스만 상속받을 수 있다.
 		 * - 상속받지 않는 모든 클래스는 Object클래스를 상속받는다.
-		 * - 자식 클래스는 부모 클래스으 ㅣ멤버 외의 새로운 멤버를 가질 수 있으므오
+		 * - 자식 클래스는 부모 클래스의 멤버 외의 새로운 멤버를 가질 수 있으므로
 		 *   자식 클래스는 부모클래스보다 크거나 같다.
 		 * - 두개 이상의 클래스를 만드는데 공통된 멤버가 있는 경우 부모클래스로 만든다.
 		 * 
@@ -24,20 +24,20 @@ public class Inheritance {
 		 * - 자식 클래스 생성자의 첫줄에 super()가 있어야 한다.
 		 * - 없으면 컴파일러가 자동으로 추가한다.
 		 * 
-		 * <<오버라이딩>>
+		 * << 오버라이딩 >>
 		 * - 상속받은 메서드의 내용을 재정의하는 것이다.
 		 * - 상속받은 메서드와 리턴타입, 메서드명, 파라미터가 같아야 한다.
 		 * - 상속받은 메서드보다 좁은 범위위 접근제어자로 변경할 수 없다.
 		 * - 상속받은 메서드보다 많은 예외를 선언할 수 없다.
 		 * - static을 빼거나 더할 수 없다.
 		 * 
-		 * << 다형성>>
+		 * << 다형성 >>
 		 * - 상속으로 인해 여러가지 형태를 가지게 되는 특징을 말한다.
 		 * - 부모타입으로 생성된 객체는 부모타입에 정의된 멤버만 사용가능하다.
 		 * - 부모타입과 자식타입은 서로 형변환이 가능하다.
 		 * - 자식타입 > 부모 타입 : Up-casting (생략가능)
 		 * - 부모타입 > 자식 타입 : Down-casting (생략불가)
-		 * - 부모와 자식에 동일한 메서드가 있는 경우 자식으 ㅣ메서드를 사용한다.
+		 * - 부모와 자식에 동일한 메서드가 있는 경우 자식의 메서드를 사용한다. (오버라이딩한 경우, 오버라이딩한 메서드만 사용된다.)
 		 * - 부모와 자식에 동일한 멤버변수가 있는 경우 부모타입에서는 부모의 변수를 자식타입에서는
 		 * 	  자식의 변수를 사용한다.
 		 * 
@@ -53,7 +53,36 @@ public class Inheritance {
 		 * - 객체들간에 객체를 공유하기 위해 사용한다.
 		 * 
 		 */
-
+		
+		AccessModifier am = new AccessModifier();
+		
+		System.out.println(am.publicVar);
+		am.publicMethod();
+		
+		System.out.println(am.protectedVar);
+		am.protectedMerhod();
+		
+		System.out.println(am.defaultVar);
+		am.defaultMethod();
+		
+//		System.out.println(am.privateVar);
+//		am.privateMethod();
+		
+		Time t = new Time();
+		
+//		t.setHour(16);
+//		t.setMinute(5);
+//		t.setSecond(999);					//잘못된 값을 막기 위해 private 를 사용 → 유효성 체크
+		
+		t.setSecond(100000);
+		
+		System.out.println(t);
+		
 	}
+	
+	
+	
+	
+	
 
 }

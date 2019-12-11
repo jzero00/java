@@ -12,7 +12,7 @@ public class SampleChild extends SampleParent { //상속 클래스 쓰는 방법
 	}
 	public static void main(String[] args) {
 		
-		SampleChild sc = new SampleChild();
+		SampleChild sc = new SampleChild();	//업캐스팅 자식타입에서 부모타입으로 형변환
 		System.out.println(sc.var);
 		int result = sc.method(7,13);
 		System.out.println(result);
