@@ -1,4 +1,4 @@
-package z_exam_06;
+package z_exam.exam_06;
 
 public class Exam_06 {
 

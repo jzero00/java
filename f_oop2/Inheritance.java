@@ -78,6 +78,16 @@ public class Inheritance {
 		
 		System.out.println(t);
 		
+		Singleton s = Singleton.getInstance();		//Singleton으로 만들어진 클래스는 클래스면. getInstance로 호출
+		
+		System.out.println(Singleton.getInstance());
+		System.out.println(Singleton.getInstance());
+		System.out.println(Singleton.getInstance());
+		
+		System.out.println(new Inheritance());
+		System.out.println(new Inheritance());
+		System.out.println(new Inheritance());
+		
 	}
 	
 	
