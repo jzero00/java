@@ -6,8 +6,8 @@ public class Score_rank {
 
 	public static void main(String[] args) {
 
-		ArrayList<Object> students1 = new ArrayList<>();
-		students1.add("김지선");
+		ArrayList<Object> students = new ArrayList<>();
+		students.add("김지선");
 		students.add("이누리");
 		students.add("박종민");
 		students.add("정대석");
@@ -30,9 +30,9 @@ public class Score_rank {
 		students.add("정보람");
 		students.add("박진영");
 		
-		for(int i = 0; i < students.size(); i++){
-			ArrayList<Object>  = new ArrayList<>();
-		}
+//		for(int i = 0; i < students.size(); i++){
+//			ArrayList<Object>  = new ArrayList<>();
+//		}
 		
 	}
 

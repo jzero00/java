@@ -28,4 +28,8 @@ public class ClassMaker {
 	int multiple(int x, int y) {
 		return x * y;
 	}
+	
+	int multiple(int x, int y, int z) {
+		return x * y * z;
+	}
 }
