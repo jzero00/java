@@ -76,10 +76,14 @@ public class score_info {
 		return avg;
 	}
 
-	public void getRank() {
-//		int [] arr = new arr[21];
-		
-	}
+//	public int getRank() {
+//		int n;
+//		int sum_max = 
+//		if (sum > )
+//		return n;
+//	}
+
+
 
 
 

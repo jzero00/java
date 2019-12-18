@@ -44,7 +44,7 @@ public class Score_usingMethod {
 			si.getJsp();
 			si.getSum();
 			si.getAvg();
-			si.getRank();
+//			si.getRank();
 		}
 		
 		for(int i = 0 ; i < students.size() ; i++){
@@ -57,7 +57,7 @@ public class Score_usingMethod {
 			System.out.print(score_info.getJsp() + "\t"); 
 			System.out.print(score_info.getSum() + "\t"); 
 			System.out.print(score_info.getAvg() + "\t");
-			Collections.sort(score_info.getAvg());
+//			Collections.sort(score_info.getAvg());
 //			System.out.print(score_info.getRank() + "\t");
 			System.out.println();
 		}

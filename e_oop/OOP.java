@@ -42,6 +42,8 @@ public class OOP {
 
 		int returnInt2 = cm.multiple(12, 5);
 		System.out.println(returnInt2);
+		int returnInt3 = cm.multiple(12, 5 , 2);
+		System.out.println(returnInt3);
 
 		// 다음을 한줄씩 계산해서 최종 결과값을 출력해주세여
 		// 1. 123456 + 654321
