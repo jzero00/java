@@ -1,7 +1,5 @@
 package Homework;
 
-import z_exam.exam_06.Student;
-
 public class score_info {
 
 	private String name;
