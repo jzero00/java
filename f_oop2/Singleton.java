@@ -4,19 +4,19 @@ package f_oop2;
 //객체들 간에 객체를 공유하기 위해 사용한다.
 
 public final class Singleton {
-	
+
 	private static Singleton instance;
-	
+
 	//생성자의 접근 제어자를 private으로 만들어 다른 클래스에서 객체 생성하는 것을 막는다.
 	private Singleton(){
-		
+
 	}
-	
+
 	public static Singleton getInstance(){
 		if (instance == null){
 			instance = new Singleton();
 		}
 		return instance;
 	}
-	
+
 }
