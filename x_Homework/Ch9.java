@@ -95,8 +95,8 @@ public class Ch9 {
 		String s = "Hello";
 		String s1 = s.toUpperCase();
 		
-		String s = "     Hello World      ";
-		String s1 = s.trim();
+//		String s = "     Hello World      ";
+//		String s1 = s.trim();
 		
 		String b = String.valueOf(true);
 		String c = String.valueOf('a');

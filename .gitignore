@@ -2,3 +2,13 @@
 *.class
 
 i_collection/.classpath
+
+*.html
+
+*.jar
+
+*.js
+
+*.css
+
+*.png

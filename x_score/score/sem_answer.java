@@ -1,4 +1,4 @@
-package x_score;
+package x_score.score;
 
 import java.util.ArrayList;
 

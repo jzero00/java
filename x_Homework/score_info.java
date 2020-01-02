@@ -74,6 +74,8 @@ public class score_info {
 		return avg;
 	}
 
+
+
 //	public int getRank() {
 //		int n;
 //		int sum_max = 
