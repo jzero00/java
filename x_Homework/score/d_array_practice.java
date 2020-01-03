@@ -1,4 +1,4 @@
-package x_practice;
+package x_Homework.score;
 
 public class d_array_practice {
 

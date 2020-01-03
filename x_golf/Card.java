@@ -1,5 +1,7 @@
 package x_golf;
 
+import java.util.ArrayList;
+
 public class Card {
 
 	static final int KIND_MAX = 4;
@@ -20,9 +22,13 @@ public class Card {
 		this.kind = kind;
 		this.number = number;
 	}
+	
+	
 	public String toString(){
-		String[] kinds = { "", "CLOVER" , "HEART" , "DIAMOND" , "SPADE" };
+		String[] kinds = { "", "♣" , "♥" , "◈" , "♠" };
 		String numbers = "0123456789XJQK";
-		return "kind : " + kinds[this.kind] + ", number : " + numbers.charAt(this.number);
+		
+		return kinds[this.kind] + numbers.charAt(this.number);
+		
 	}
 }
