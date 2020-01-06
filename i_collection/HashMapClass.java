@@ -40,31 +40,34 @@ public class HashMapClass {
 			System.out.println(key + " : " + value);
 		}
 		ArrayList<HashMap<String, Object>> list = new ArrayList<>();
-		HashMap<String,Object> hm = new HashMap<>();
+		HashMap<String,Object> hm1 = new HashMap<>();
 		
-		hm = new HashMap<>();
-		hm.put("LPROD_ID", 1);
-		hm.put("LPROD_GU", "p101");
-		hm.put("LPROD_NM", "컴퓨터 제품");
-		list.add(hm);
+		hm1 = new HashMap<>();
+		hm1.put("LPROD_ID", 1);
+		hm1.put("LPROD_GU", "p101");
+		hm1.put("LPROD_NM", "컴퓨터 제품");
+		list.add(hm1);
 		
-		hm = new HashMap<>();
-		hm.put("LPROD_ID", 2);
-		hm.put("LPROD_GU", "p102");
-		hm.put("LPROD_NM", "전자 제품\t");
-		list.add(hm);
+		HashMap<String,Object> hm2 = new HashMap<>();
+		hm2 = new HashMap<>();
+		hm2.put("LPROD_ID", 2);
+		hm2.put("LPROD_GU", "p102");
+		hm2.put("LPROD_NM", "전자 제품\t");
+		list.add(hm2);
 		
-		hm = new HashMap<>();
-		hm.put("LPROD_ID", 3);
-		hm.put("LPROD_GU", "p201");
-		hm.put("LPROD_NM", "여성캐주얼\t");
-		list.add(hm);
+		HashMap<String,Object> hm3 = new HashMap<>();
+		hm3 = new HashMap<>();
+		hm3.put("LPROD_ID", 3);
+		hm3.put("LPROD_GU", "p201");
+		hm3.put("LPROD_NM", "여성캐주얼\t");
+		list.add(hm3);
 		
-		hm = new HashMap<>();
-		hm.put("LPROD_ID", 4);
-		hm.put("LPROD_GU", "p202");
-		hm.put("LPROD_NM", "남성캐주얼\t");
-		list.add(hm);
+		HashMap<String,Object> hm4 = new HashMap<>();
+		hm4 = new HashMap<>();
+		hm4.put("LPROD_ID", 4);
+		hm4.put("LPROD_GU", "p202");
+		hm4.put("LPROD_NM", "남성캐주얼\t");
+		list.add(hm4);
 		
 		for(String key : list.get(0).keySet()){
 			System.out.print(key + "\t");

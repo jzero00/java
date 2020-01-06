@@ -10,7 +10,7 @@ public class CollectionsFramework {
 		 * 
 		 * << List >>
 		 * -Vector 				: ArrayList의 구버전
-		 * -ArratList			: 저장순서 유지, 중복 허용
+		 * -ArrayList			: 저장순서 유지, 중복 허용
 		 * -LinkedList			: 데이터 추가 빛 삭제 시간 단축
 		 * -Stack 				: LIFO(Last In First Out)
 		 * -Queue				: FIFO(First In First Out)

@@ -92,6 +92,7 @@ public class Ch9 {
 //		String s = "Hello";
 //		String s1 = s.toString();
 		
+<<<<<<< Updated upstream
 		String s = "Hello";
 		String s1 = s.toUpperCase();
 		
@@ -106,6 +107,22 @@ public class Ch9 {
 		String d = String.valueOf(10.0);
 		java.util.Date dd = new java.util.Date();
 		String date = String.valueOf(dd);
+=======
+//		String s = "Hello";
+//		String s1 = s.toUpperCase();
+//		
+//		String s = "     Hello World      ";
+//		String s1 = s.trim();
+//		
+//		String b = String.valueOf(true);
+//		String c = String.valueOf('a');
+//		String i = String.valueOf(100);
+//		String l = String.valueOf(100L);
+//		String f = String.valueOf(10f);
+//		String d = String.valueOf(10.0);
+//		java.util.Date dd = new java.util.Date();
+//		String date = String.valueOf(dd);
+>>>>>>> Stashed changes
 		
 		
 	}
